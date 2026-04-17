@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Disallow admin
+Disallow: /admin/
+Disallow: /config.php
+
+# Sitemap
+Sitemap: <?php echo SITE_URL; ?>/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
